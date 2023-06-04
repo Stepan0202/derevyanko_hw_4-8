@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nullStyle.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson 3.</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Derevyanko. Homeworks 4—8</h1>
+        <div class="accordion" id="accordionTasks">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Homework 4
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionTasks">
+                <div class="accordion-body px-5">
+                    <h4>Дано два різні числа. Визначити, яке з них більше, а яке менше.</h4>
+                    <form action="#" method="get">
+                        <div class="row">
+                            <div class="col-5">
+                                <input type="text" class="form-control" id="hw4t1in1">
+                            </div>
+                            <div class="col-1 text-center">
+                                <div class="sign_hw4_t1 fs-3"></div>
+                            </div>
+                            <div class="col-5">
+                                <input type="text" class="form-control" id="hw4t1in2">
+                            </div>
+                            <div class="col-1">
+                                <input type="submit" class="btn btn-primary" value ="COMPARE" id="hw4t1submit">
+                            </div>
+                        </div>
+                    </form>
+
+                    <h4>Відомі дві відстані. Одне у кілометрах, інше – у футах (1 фут = 0,305м). Яка відстань менша?</h4>
+                    <form action="#" method="get">
+                        <div class="row">
+                            <div class="col-5">
+                                <input type="text" class="form-control" id="hw4t2in1" placeholder="Distance in kilometers">
+                            </div>
+                            <div class="col-1 fs-3 text-center">
+                                <div class="sign_hw4_t2"></div>
+                            </div>
+                            <div class="col-5">
+                                <input type="text" class="form-control" id="hw4t2in2" placeholder="Distance in feets">
+                            </div>
+                            <div class="col-1">
+                                <input type="submit" class="btn btn-primary" value ="COMPARE" id="hw4t2submit">
+                            </div>
+                            
+                        </div>
+                    </form>
+
+                    <h4>Визначити, чи є число a дільником числа b? І навпаки. (Дати дві відповіді)</h4>
+                    <form action="#" method="get">
+                        <div class="row">
+                            <div class="col-5">
+                                <input type="text" class="form-control" id="hw4t3in1" placeholder="a">
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="form-control" id="hw4t3in2" placeholder="b">
+                            </div>
+                            <div class="col-1">
+                                <input type="submit" class="btn btn-primary" value ="CHECK IT" id="hw4t3submit">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <p class="col-5 hw4t3answer1">'a' is a divisor of 'b': </p>
+                            <p class="col-5 hw4t3answer2">'b' is a divisor of 'a': </p>
+                        </div>
+                    </form>
+
+                    <h4>Дано число. Визначити, чи закінчується воно парною цифрою чи непарною? Вивести останню цифру.</h4>
+                    <form action="#" method="get">
+                        <div class="row">
+                            <div class="col-10">
+                                <input type="text" class="form-control" id="hw4t4in1">
+                            </div>
+                            <div class="col-2">
+                                <input type="submit" class="btn btn-primary" value ="CHECK IT" id="hw4t4submit">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <p class="col-5 hw4t4answer1">Number is: . It`s  </p>
+                        </div>
+                    </form>
+
+                    <h4>Дано двозначне число. Визначити, яка з його цифр більша: перша чи друга?</h4>
+                    <form action="#" method="get">
+                        <div class="row">
+                            <div class="col">
+                                <input type="number" min="-99" max="99" class="form-control" id="hw4t5in1">
+                            </div>
+                            <div class="col-2">
+                                <input type="submit" class="btn btn-primary" value ="CHECK IT" id="hw4t5submit">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <p class="col-5 hw4t5answer1"></p>
+                        </div>
+                    </form>
+
+                    <h4>Дано тризначне число.</h4>
+                    <form action="#" method="get">
+                        <div class="row">
+                            <div class="col-10">
+                                <input type="text" class="form-control" id="hw4t6in1">
+                            </div>
+                            <div class="col-2">
+                                <input type="submit" class="btn btn-primary" value ="CHECK IT" id="hw4t6submit">
+                            </div>
+                            
+                        </div>
+                    </form>
+                    <p>Визначити чи є парною сума його цифр. <span class="sign hw4t6answer1"></span></p>
+                    <p>Визначити, чи кратна сума цифр п'яти. <span class="sign hw4t6answer2"></span></p>
+                    <p>Визначити чи є добуток його цифр більше 100. <span class="sign hw4t6answer3"></span></p>
+
+                    <h4>Дано тризначне число.</h4>
+                    <form action="#" method="get">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" id="hw4t7in1">
+                            </div>
+                            <div class="col-2">
+                                <input type="submit" class="btn btn-primary" value ="CHECK IT" id="hw4t7submit">
+                            </div>
+                        </div>
+                    </form>
+                    <p>Чи правда, що всі цифри однакові? <span class="sign hw4t7answer1"></span></p>
+                    <p>Чи є серед цифр цифри однакові? <span class="sign hw4t7answer2"></span></p>
+
+                    <h4>Визначити, чи є задане шестизначне число дзеркальним? (123321, 147741)</h4>
+                    <form action="#" method="get">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" id="hw4t8in1">
+                            </div>
+                            <div class="col-2">
+                                <input type="submit" class="btn btn-primary" value ="CHECK IT" id="hw4t8submit">
+                            </div>
+                        </div>
+                    </form>
+                    <p>Answer: <span class="fs-3 hw4t8answer1"></span></p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Homework 5
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionTasks">
+                <div class="accordion-body">
+                    <button class="btn btn-primary hw5t1submit">Begin</button>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Homework 6
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionTasks">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Homework 7
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionTasks">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Homework 8
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionTasks">
+                <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

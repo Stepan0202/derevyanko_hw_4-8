@@ -36,14 +36,14 @@ function getInformation(){
     }
     if(!!city){
         resultMessage = "";
-        cityMessage = `You are living in ${city}.`;
-        if(capitals[city.toLowerCase()]) cityMessage = `You are living in the capital of ${capitals[city.toLowerCase()]}.`;
+        cityMessage = ` You are living in ${city}.`;
+        if(capitals[city.toLowerCase()]) cityMessage = ` You are living in the capital of ${capitals[city.toLowerCase()]}.`;
         messagesArray.push(cityMessage);
     }
     if(!!sport){
         resultMessage = "";
-        championsMessage = `Your favourite sport is ${sport.toLowerCase()}`;
-        if (champions[sport.toLowerCase()]) championsMessage = `Cool! You want to be ${champions[sport.toLowerCase()]}`;
+        championsMessage = ` Your favourite sport is ${sport.toLowerCase()}`;
+        if (champions[sport.toLowerCase()]) championsMessage = ` Cool! You want to be ${champions[sport.toLowerCase()]}`;
         messagesArray.push(championsMessage);
     }
     for(let i = 0; i < messagesArray.length; i++){
@@ -52,6 +52,9 @@ function getInformation(){
         }
     }
     alert(resultMessage);
+    const pElement = document.createElement("p");
+    document.body. appendChild(pElement);
+    pElement.innerHTML = resultMessage;
 }
 
 

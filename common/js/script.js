@@ -255,7 +255,7 @@ function getInformation(){
     alert(resultMessage);
 }
 //HOMEWORK 6
-let numOrStr = prompt('input number or string');
+let numOrStr = prompt('Task 6. Input number or string');
 console.log(numOrStr)
 switch(true){
     case numOrStr === null:

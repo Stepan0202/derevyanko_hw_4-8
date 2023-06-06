@@ -2,7 +2,7 @@ const button = document.querySelector(".btn");
 window.addEventListener('load', getInformation);
 button.addEventListener('click', getInformation);
 function getInformation(){
-    const age = prompt("How old are you?");
+    const age = prompt("Wheh do you birth?");
     if(!age) alert("We are sorry that you don`t want to enter your age");
     let city = prompt("Where do you live?");
     if(!city) alert("We are sorry that you don`t want to enter your city");
@@ -31,7 +31,7 @@ function getInformation(){
     let resultMessage = "Sorry, but you tell nothing about yourself :(";
     if(!!age){
         resultMessage = "";
-        ageMessage = `You are ${age}.`;
+        ageMessage = `You are ${2023 - age}.`;
         messagesArray.push(ageMessage);
     }
     if(!!city){

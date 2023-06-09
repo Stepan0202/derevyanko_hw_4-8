@@ -58,3 +58,8 @@ hw8_submit3.addEventListener('click', (e) => {
     }
     hw8_ansArr[4].innerHTML = isSquare3;
 })
+let i = 0;
+   
+for(; i < 5;) {
+  console.log(++i);
+}
